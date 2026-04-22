@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background">
+
+    <EditText
+        android:id="@+id/hello_there_edittext"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_string"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@android:color/holo_green_light"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:padding="6dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="4dp" />
+
+    <EditText
+        android:id="@+id/awesome_android_edittext"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:text="@string/android_is_so_awesome"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:padding="6dp"
+        android:layout_toEndOf="@id/hello_there_edittext"
+        android:layout_alignTop="@id/hello_there_edittext" />
+
+</RelativeLayout>
