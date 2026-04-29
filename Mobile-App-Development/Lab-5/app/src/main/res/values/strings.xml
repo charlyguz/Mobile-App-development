@@ -3,4 +3,15 @@
     <string name="hello_string">Hello There From XML File</string>
     <string name="android_is_so_awesome">Android is so awesome</string>
     <string name="remeber">Remeber!</string>
+
+    <string name="write_to_logcat">Write to LogCat</string>
+    <string name="write_to_logcat_listener">Write To LogCat - Listener</string>
+    <string name="show_toast">Show Toast</string>
+    <string name="write_here_something">We write here something</string>
+    <string name="write_to_textview">Write to TextView</string>
+    <string name="update_user_data">Update user data</string>
+
+    <string name="first_name_hint">First name</string>
+    <string name="last_name_hint">Last name</string>
+    <string name="i_love_this_game">I love this game</string>
 </resources>
