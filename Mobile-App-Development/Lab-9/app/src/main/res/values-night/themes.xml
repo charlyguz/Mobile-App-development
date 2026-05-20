@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme — Dark. -->
+    <style name="Base.Theme.CarlosGuzmanAndroidWorkingWithLists" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#81C784</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorSecondary">#FF80AB</item>
+        <item name="colorOnPrimary">#1B1B1F</item>
+        <item name="colorOnSecondary">#1B1B1F</item>
+        <item name="colorSurface">#1C1B1F</item>
+        <item name="colorOnSurface">#E6E1E5</item>
+        <item name="android:colorBackground">#121212</item>
+        <item name="android:statusBarColor">#121212</item>
+        <item name="android:navigationBarColor">#1C1B1F</item>
+    </style>
+</resources>

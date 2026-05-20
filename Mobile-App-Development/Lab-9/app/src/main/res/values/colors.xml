@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary palette — Jade Green -->
+    <color name="primary">#2E7D32</color>
+    <color name="primary_dark">#1B5E20</color>
+    <color name="primary_light">#4CAF50</color>
+    <color name="on_primary">#FFFFFFFF</color>
+
+    <!-- Secondary palette — Rose Pink -->
+    <color name="secondary">#E91E63</color>
+    <color name="secondary_light">#FF5C8D</color>
+    <color name="on_secondary">#FFFFFFFF</color>
+
+    <!-- Surface & Background -->
+    <color name="surface">#FFFFFFFF</color>
+    <color name="surface_variant">#F5F5F5</color>
+    <color name="background">#FAFAFA</color>
+    <color name="on_surface">#1C1B1F</color>
+    <color name="on_surface_variant">#49454F</color>
+
+    <!-- List item cards -->
+    <color name="list_row_even">#FFF8F5FF</color>
+    <color name="list_row_odd">#FFE8F5E9</color>
+    <color name="card_stroke">#E0E0E0</color>
+
+    <!-- Button gradient -->
+    <color name="button_start">#2E7D32</color>
+    <color name="button_end">#43A047</color>
+
+    <!-- Header -->
+    <color name="header_bg">#1B5E20</color>
+    <color name="header_text">#FFFFFFFF</color>
+    <color name="header_subtitle">#C8E6C9</color>
+
+    <!-- List header -->
+    <color name="list_header_bg">#E8F5E9</color>
+    <color name="list_header_text">#1B5E20</color>
+    <color name="list_header_subtitle">#388E3C</color>
+
+    <!-- Divider -->
+    <color name="divider">#E0E0E0</color>
+</resources>

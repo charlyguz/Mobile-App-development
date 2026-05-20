@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CarlosGuzmanAndroidWorkingWithLists</string>
+    <string name="show_flower_list">show flower list</string>
+    <string name="flower_image_content_description">Flower photo</string>
+    <string name="main_title">🌿 Flower Garden</string>
+    <string name="main_subtitle">Discover beautiful flowers from around the world</string>
+    <string name="list_title">🌸 Flower Collection</string>
+    <string name="list_subtitle">Tap a flower to learn more</string>
+    <string name="show_flower_list_styled">Show Flower List</string>
+</resources>
