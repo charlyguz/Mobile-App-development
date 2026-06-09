@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
 
         setButtonListeners()
 
+        // Apply window insets so content is not hidden behind system bars
         ViewCompat.setOnApplyWindowInsetsListener(binding.main) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(
@@ -39,6 +40,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setButtonListeners() {
+        // Digits
         binding.btn0.setOnClickListener { vm.onDigit("0") }
         binding.btn1.setOnClickListener { vm.onDigit("1") }
         binding.btn2.setOnClickListener { vm.onDigit("2") }
@@ -50,14 +52,19 @@ class MainActivity : AppCompatActivity() {
         binding.btn8.setOnClickListener { vm.onDigit("8") }
         binding.btn9.setOnClickListener { vm.onDigit("9") }
 
+        // Decimal
         binding.btnDot.setOnClickListener { vm.onDecimal() }
 
-        binding.btnPlus.setOnClickListener { vm.onOperator("+") }
-        binding.btnMinus.setOnClickListener { vm.onOperator("-") }
+        // Operators
+        binding.btnPlus.setOnClickListener     { vm.onOperator("+") }
+        binding.btnMinus.setOnClickListener    { vm.onOperator("-") }
         binding.btnMultiply.setOnClickListener { vm.onOperator("*") }
-        binding.btnDivide.setOnClickListener { vm.onOperator("/") }
+        binding.btnDivide.setOnClickListener   { vm.onOperator("/") }
 
-        binding.btnEquals.setOnClickListener { vm.onEquals() }
-        binding.btnClear.setOnClickListener { vm.onClear() }
+        // Actions
+        binding.btnEquals.setOnClickListener  { vm.onEquals() }
+        binding.btnClear.setOnClickListener   { vm.onClear() }
+        binding.btnNegate.setOnClickListener  { vm.onNegate() }
+        binding.btnPercent.setOnClickListener { vm.onPercent() }
     }
 }

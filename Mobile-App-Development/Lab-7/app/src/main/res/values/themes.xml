@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.ICalculatorWithStaticLayouts" parent="Theme.AppCompat.Light.NoActionBar" />
+    <style name="Theme.ICalculatorWithStaticLayouts" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/calc_background</item>
+        <item name="android:navigationBarColor">@color/calc_background</item>
+        <item name="android:windowBackground">@color/calc_background</item>
+    </style>
+
 </resources>

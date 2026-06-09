@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <!-- Calculator Dark Theme Colors -->
+    <color name="calc_background">#0D0D0F</color>
+    <color name="calc_display_bg">#00000000</color>
+    <color name="calc_display_text">#FFFFFF</color>
+    <color name="calc_expression_text">#8E8E93</color>
+
+    <!-- Number buttons: slightly lighter dark -->
+    <color name="calc_btn_number">#2C2C2E</color>
+    <color name="calc_btn_number_pressed">#48484A</color>
+    <color name="calc_btn_number_text">#FFFFFF</color>
+
+    <!-- Function buttons (C, ±, %): medium grey -->
+    <color name="calc_btn_function">#3A3A3C</color>
+    <color name="calc_btn_function_pressed">#636366</color>
+    <color name="calc_btn_function_text">#FFFFFF</color>
+
+    <!-- Operator buttons: vibrant amber-orange -->
+    <color name="calc_btn_operator">#FF9F0A</color>
+    <color name="calc_btn_operator_pressed">#FFB340</color>
+    <color name="calc_btn_operator_text">#FFFFFF</color>
+    <!-- Operator selected (while pending): white bg, orange text -->
+    <color name="calc_btn_operator_selected">#FFFFFF</color>
+    <color name="calc_btn_operator_selected_text">#FF9F0A</color>
+
+    <!-- Equals button: vibrant green -->
+    <color name="calc_btn_equals">#34C759</color>
+    <color name="calc_btn_equals_pressed">#30D158</color>
+    <color name="calc_btn_equals_text">#FFFFFF</color>
+
+    <!-- Dot button: same as function -->
+    <color name="calc_btn_dot">#3A3A3C</color>
+    <color name="calc_btn_dot_text">#FFFFFF</color>
+
+    <!-- Divider -->
+    <color name="calc_divider">#48484A</color>
+
+    <!-- Legacy -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
