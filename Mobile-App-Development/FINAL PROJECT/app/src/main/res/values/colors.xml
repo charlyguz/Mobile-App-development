@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Primary: Explorer Teal -->
+    <color name="primary">#FF00897B</color>
+    <color name="primary_dark">#FF00695C</color>
+    <color name="primary_light">#FF4DB6AC</color>
+    <color name="on_primary">#FFFFFFFF</color>
+    <color name="primary_container">#FFB2DFDB</color>
+    <color name="on_primary_container">#FF004D40</color>
+
+    <!-- Secondary: Amber Accent -->
+    <color name="secondary">#FFFFB300</color>
+    <color name="secondary_dark">#FFFF8F00</color>
+    <color name="on_secondary">#FF000000</color>
+    <color name="secondary_container">#FFFFF8E1</color>
+    <color name="on_secondary_container">#FF663D00</color>
+
+    <!-- Tertiary: Deep Purple -->
+    <color name="tertiary">#FF7E57C2</color>
+    <color name="on_tertiary">#FFFFFFFF</color>
+    <color name="tertiary_container">#FFEDE7F6</color>
+    <color name="on_tertiary_container">#FF311B92</color>
+
+    <!-- Error -->
+    <color name="error">#FFD32F2F</color>
+    <color name="on_error">#FFFFFFFF</color>
+    <color name="error_container">#FFFFCDD2</color>
+    <color name="on_error_container">#FFB71C1C</color>
+
+    <!-- Background/Surface -->
+    <color name="background">#FFFAFAFA</color>
+    <color name="on_background">#FF1C1B1F</color>
+    <color name="surface">#FFFFFFFF</color>
+    <color name="on_surface">#FF1C1B1F</color>
+    <color name="surface_variant">#FFF5F5F5</color>
+    <color name="on_surface_variant">#FF49454F</color>
+    <color name="outline">#FFE0E0E0</color>
+
+    <!-- Category Colors -->
+    <color name="category_nature">#FF4CAF50</color>
+    <color name="category_culture">#FF9C27B0</color>
+    <color name="category_food">#FFFF9800</color>
+    <color name="category_sport">#FF2196F3</color>
+
+    <!-- Status Colors -->
+    <color name="status_active">#FF00897B</color>
+    <color name="status_completed">#FF4CAF50</color>
+    <color name="status_expired">#FF9E9E9E</color>
+
+    <!-- Dark Theme -->
+    <color name="dark_primary">#FF80CBC4</color>
+    <color name="dark_on_primary">#FF003731</color>
+    <color name="dark_primary_container">#FF005048</color>
+    <color name="dark_on_primary_container">#FFA7F3EC</color>
+    <color name="dark_secondary">#FFFFCA28</color>
+    <color name="dark_on_secondary">#FF3E2723</color>
+    <color name="dark_secondary_container">#FF5D4037</color>
+    <color name="dark_on_secondary_container">#FFFFF8E1</color>
+    <color name="dark_tertiary">#FFB39DDB</color>
+    <color name="dark_on_tertiary">#FF1A0033</color>
+    <color name="dark_background">#FF121212</color>
+    <color name="dark_on_background">#FFE6E1E5</color>
+    <color name="dark_surface">#FF1E1E1E</color>
+    <color name="dark_on_surface">#FFE6E1E5</color>
+    <color name="dark_surface_variant">#FF2C2C2C</color>
+    <color name="dark_on_surface_variant">#FFCAC4D0</color>
+    <color name="dark_outline">#FF444444</color>
+</resources>
