@@ -2,8 +2,6 @@
 
 This document is designed as a visual guide for the final project screencast. It covers the application goal, architecture, main modules, API integration, location-based challenge generation, local storage, user flow, screens, and tests.
 
-> [!NOTE]
-> The screencast can show this document side by side with Android Studio and the running app. Each section maps directly to the official screencast requirements.
 
 ## 1. Project Overview
 
@@ -32,17 +30,6 @@ flowchart LR
     History --> Stats["Update statistics"]
 ```
 
-## 2. Screencast Requirements Mapping
-
-| Official requirement | Where it is shown in this document |
-|---|---|
-| Overview of project structure | Sections 3 and 4 |
-| Explanation of important classes/modules | Section 5 |
-| Application running on emulator/device | Section 7, Screens Overview |
-| Main user flow | Section 6 |
-| API usage demonstration | Section 8 |
-| Location-based challenge generation | Section 9 |
-| Local data storage/history | Section 10 |
 
 ## 3. Architecture Diagram
 

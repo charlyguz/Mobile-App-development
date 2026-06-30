@@ -133,14 +133,6 @@ Run tests:
 ./gradlew testDebugUnitTest
 ```
 
-## Notes and Limitations
-
-- Completion is checked when the user taps **Check Completion**; it is not a background geofence.
-- The map shows a straight-line direction between user and target, not turn-by-turn routing.
-- Expiring a mission currently happens when a new mission replaces the active one.
-- Room uses destructive migration for prototype simplicity, so database schema changes may clear local data during development.
-- Overpass availability depends on internet connection and public API response times.
-
 ## Author
 
 Carlos Guzman  
