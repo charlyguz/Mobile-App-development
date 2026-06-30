@@ -2,6 +2,13 @@
 
 This document is designed as a visual guide for the final project screencast. It covers the application goal, architecture, main modules, API integration, location-based challenge generation, local storage, user flow, screens, and tests.
 
+## Final Project Video
+
+[Open the final project video](./Final%20project%20Video.mp4)
+
+<video controls src="./Final%20project%20Video.mp4" title="City Explorer Challenge final project video"></video>
+
+If the embedded player does not render on GitHub, use the link above to open or download the video.
 
 ## 1. Project Overview
 

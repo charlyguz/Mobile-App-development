@@ -4,6 +4,14 @@ City Explorer Challenge is an Android application that works as a personal explo
 
 The app is not a static CRUD list. Missions are generated from live context and saved locally so the user can complete them, review past missions, and track progress.
 
+## Final Project Video
+
+[Open the final project video](./Final%20project%20Video.mp4)
+
+<video controls src="./Final%20project%20Video.mp4" title="City Explorer Challenge final project video"></video>
+
+If the embedded player does not render on GitHub, use the link above to open or download the video.
+
 ## Implemented Features
 
 - **Dynamic mission generation**: Missions are generated from current location, nearby places, previous missions, category history, and time of day.
