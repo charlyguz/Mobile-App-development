@@ -810,42 +810,7 @@ generateChallenge(
 
 This avoids needing an emulator or real `android.location.Location` object for rule tests.
 
-## 15. What to Show in the Screencast
-
-### Suggested Visual Order
-
-1. Show this walkthrough file.
-2. Show the project structure in Android Studio.
-3. Open `MainViewModel.kt` and explain orchestration.
-4. Open `LocationTracker.kt` and show location handling.
-5. Open `PlacesRepository.kt` and show Overpass integration.
-6. Open `ChallengeGenerator.kt` and show the five rules.
-7. Open `ChallengeEntity.kt` and `ChallengeDao.kt` and show Room persistence.
-8. Run the app.
-9. Show Home screen.
-10. Generate a mission.
-11. Open Details and show the reasoning.
-12. Open Map and show target/user/distance.
-13. Tap Check Completion.
-14. Show History.
-15. Show Statistics.
-
-### Minimum Demo Checklist
-
-| Demo item | How to show it |
-|---|---|
-| Location permission | Fresh install or app permission settings |
-| Current location | Home location status or Map user marker |
-| API usage | Generate mission after location is available |
-| Dynamic challenge | Home mission card and Details reasoning |
-| Map | Target marker, user marker, distance, completion circle |
-| Completion | Tap Check Completion near target |
-| History | Completed/expired mission list |
-| Statistics | Updated totals and category breakdown |
-| Code structure | Android Studio package tree |
-| Tests | Show `ChallengeGeneratorTest.kt` |
-
-## 16. Current Limitations
+## 15. Current Limitations
 
 These are intentional or acceptable for the current project scope:
 
@@ -855,25 +820,3 @@ These are intentional or acceptable for the current project scope:
 - Expiration happens when a new mission replaces the active one.
 - Room uses destructive migration during development, so schema changes can clear local data.
 - Public Overpass API availability depends on network conditions.
-
-## 17. Final Submission Notes
-
-The repository should include:
-
-- complete Android source code,
-- Gradle files,
-- README,
-- this walkthrough document,
-- no private API keys,
-- no generated build folders,
-- no local IDE configuration files,
-- no assignment PDF/instruction files tracked in Git.
-
-Ignored local files:
-
-```text
-MobileAppDevelopment-FinalProject.pdf
-final proyect instructions.md
-```
-
-The files can remain on the local machine for reference, but they should not be part of the submitted repository.
